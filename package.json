@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "heroku-postbuild": "npm run frontend-install && npm run frontend-build",
+    "frontend-install": "cd frontend && npm install",
+    "build": "cd frontend && npm run build"
   },
   "repository": {
     "type": "git",
