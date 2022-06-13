@@ -8,3 +8,5 @@
     * nodemon
     * dotenv - PORT
 * Deploy to heroku
+* Create a react_project 
+    * Build local react 
