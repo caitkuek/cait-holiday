@@ -1,0 +1,25 @@
+{
+  "name": "cait-holiday",
+  "version": "1.0.0",
+  "description": "## Expres on Heroku",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caitkuek/cait-holiday.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caitkuek/cait-holiday/issues"
+  },
+  "homepage": "https://github.com/caitkuek/cait-holiday#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
