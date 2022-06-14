@@ -12,3 +12,9 @@
     * Build local react 
     * Setup heroku post build
     * Change backend routes to /api/
+
+## React
+
+Login Page - /
+Master Page - /holidays/master
+Detail Page - /holidays/:id
