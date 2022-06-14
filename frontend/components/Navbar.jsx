@@ -5,9 +5,9 @@ function Navbar() {
         <>
         <nav>
         <ul>
-          <Link to="/">Main</Link>
-          <Link to="/holidays/">Holidays</Link>
-          <Link to="/holidays/:id">Detail</Link>
+          <li><Link to="/">Main</Link></li>
+          <li><Link to="/holidays/">Holidays</Link></li>
+          <li><Link to="/holidays/:id">Detail</Link></li>
         </ul>
         </nav>
         </>

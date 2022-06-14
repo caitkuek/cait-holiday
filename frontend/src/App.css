@@ -15,3 +15,22 @@ html {
     color: #1d1d1d;
     font-family: sans-serif;
   }
+nav {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+a {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #1d1d1d;
+}
