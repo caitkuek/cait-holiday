@@ -1,6 +1,9 @@
+import Navbar from "../components/Navbar";
+
 function Detail() {
   return (
     <div>
+      <Navbar />
       <h1>Holiday Info</h1>
       <h2>Harvey Wallbanger Day</h2>
       <dl>

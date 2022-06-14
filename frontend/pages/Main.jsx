@@ -1,6 +1,9 @@
+import Navbar from "../components/Navbar";
+
 function Main() {
   return (
     <main>
+      <Navbar />
       <section>
         <h1>Holidays! Celebrate!</h1>
         <form>

@@ -1,5 +1,9 @@
+import Navbar from "../components/Navbar"
+
 function Login() {
     return (
+        <>
+        <Navbar />
         <form>
             <fieldset>
                 <legend>Login</legend>
@@ -10,6 +14,7 @@ function Login() {
                 <button>Login</button>
             </fieldset>
         </form>
+        </>
     )
 }
 
