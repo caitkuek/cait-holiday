@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Detail from "./pages/Detail"
-import Login from "./pages/Login"
-import Main from "./pages/Main"
+import Detail from "../pages/Detail";
+import Login from "../pages/Login"
+import Main from "../pages/Main"
 
 
 function App() {
