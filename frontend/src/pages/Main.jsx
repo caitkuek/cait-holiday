@@ -1,19 +1,11 @@
-import Navbar from "../components/Navbar";
+import CreateHolidayForm from "../components/CreateHolidayForm";
 
 function Main() {
   return (
     <main>
-      <Navbar />
       <section>
         <h1>Holidays! Celebrate!</h1>
-        <form>
-          <fieldset>
-            <legend>Add</legend>
-            <label htmlFor="holiday">Name</label>
-            <input id="holiday" name="holiday" />
-            <button>Add a reason to celebrate</button>
-          </fieldset>
-        </form>
+        <CreateHolidayForm />
       </section>
       <section>
         <table>

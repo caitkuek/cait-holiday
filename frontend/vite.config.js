@@ -6,13 +6,8 @@ export default defineConfig({
   server: {
     port: 3002, // react
     proxy: {
-      "/api/login": {
-        target: "http://localhost:3001", //express
-        changeOrigin: true,
-        secure: false,
-        ws: true,
-      }
-    }
+      "^/api/.*": "http://localhost:3001/", //backend
+    },
   },
   plugins: [react()]
-})
+});
